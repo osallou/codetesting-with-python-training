@@ -29,6 +29,7 @@ config = {
         'Programming Language :: Python :: 3.4'
     ],
     'install_requires': ['nose',
+                            'coverage',
                             'ldap3',
                             'mock'],
     'packages': find_packages(),
