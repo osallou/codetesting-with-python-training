@@ -26,6 +26,6 @@ class Test(unittest.TestCase):
         result = sample.add(1,1)
         self.assertEqual(2, result)
 
-    def testAuthenticate(self, initialize_mock):
+    def testAuthenticate(self):
         sample = SampleCode()
         is_auth = sample.authenticate('sampleuser', 'yy')
